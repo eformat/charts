@@ -1094,6 +1094,20 @@ entries:
   gitea:
   - apiVersion: v2
     appVersion: latest
+    created: "2023-02-13T00:47:28.796842813Z"
+    description: A Helm chart for Kubernetes
+    digest: e2a930c10e7295ec965ad287ee17475fc4c8268513f9116bf9aff570d2372634
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/go-gitea/gitea/ee60f27aec0f75a34ae62841ed52579c0c20dcfa/assets/logo.svg
+    maintainers:
+    - name: infosec812
+    name: gitea
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/gitea-0.1.3/gitea-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: latest
     created: "2022-04-20T13:28:15.206936424Z"
     description: A Helm chart for Kubernetes
     digest: d8902a04ac00eb1dd982a3d60551f7f301454815fe3a6677ae0060d1d79aaf41
@@ -1121,6 +1135,21 @@ entries:
     - https://github.com/redhat-cop/helm-charts/releases/download/gitea-0.1.0/gitea-0.1.0.tgz
     version: 0.1.0
   gitops-operator:
+  - apiVersion: v2
+    appVersion: v2.5.9
+    created: "2023-02-13T00:47:28.98880662Z"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: be315c1367540346c450c0c950d3682b0809e117c223f3c53f59ae1084ed4a46
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://github.com/eformat/charts/releases/download/gitops-operator-0.5.5/gitops-operator-0.5.5.tgz
+    version: 0.5.5
   - apiVersion: v2
     appVersion: v2.5.7
     created: "2023-02-13T00:47:05.237469746Z"
@@ -2229,6 +2258,18 @@ entries:
     - https://github.com/redhat-cop/helm-charts/releases/download/network-policy-1.0.0/network-policy-1.0.0.tgz
     version: 1.0.0
   openshift-logforwarding-splunk:
+  - apiVersion: v2
+    created: "2023-02-13T00:47:29.154186612Z"
+    description: Log Forwarding from OpenShift to Splunk
+    digest: b0bb43e3cbec0866030574f2d393a6bc60b61cc9d3d231345f048ed85ee5356b
+    home: https://github.com/redhat-cop/helm-charts
+    maintainers:
+    - email: andy.block@gmail.com
+      name: sabre1041
+    name: openshift-logforwarding-splunk
+    urls:
+    - https://github.com/eformat/charts/releases/download/openshift-logforwarding-splunk-0.0.3/openshift-logforwarding-splunk-0.0.3.tgz
+    version: 0.0.3
   - apiVersion: v2
     created: "2023-02-13T00:47:05.511638688Z"
     description: Log Forwarding from OpenShift to Splunk
@@ -3385,4 +3426,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-13T00:47:05.883094259Z"
+generated: "2023-02-13T00:47:29.154688112Z"
