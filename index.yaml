@@ -1136,6 +1136,21 @@ entries:
     version: 0.1.0
   gitops-operator:
   - apiVersion: v2
+    appVersion: v2.6.6
+    created: "2023-03-23T22:14:23.171007368Z"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: cad6a285a5cd6ec57ead453afe9c152281e2eb63d5da8ceeaffc58b469b2fea7
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://github.com/eformat/charts/releases/download/gitops-operator-0.6.0/gitops-operator-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
     appVersion: v2.5.12
     created: "2023-03-01T03:42:39.263631604Z"
     description: "A Helm chart for customising the deployment of the Red Hat GitOps
@@ -2288,6 +2303,18 @@ entries:
     - https://github.com/redhat-cop/helm-charts/releases/download/network-policy-1.0.0/network-policy-1.0.0.tgz
     version: 1.0.0
   openshift-logforwarding-splunk:
+  - apiVersion: v2
+    created: "2023-03-23T22:14:23.306792262Z"
+    description: Log Forwarding from OpenShift to Splunk
+    digest: 5d8f489c822f768fa9d70bda0b123fc6576ce44ea2c62701885b9aa4dae1b70b
+    home: https://github.com/redhat-cop/helm-charts
+    maintainers:
+    - email: andy.block@gmail.com
+      name: sabre1041
+    name: openshift-logforwarding-splunk
+    urls:
+    - https://github.com/eformat/charts/releases/download/openshift-logforwarding-splunk-0.0.4/openshift-logforwarding-splunk-0.0.4.tgz
+    version: 0.0.4
   - apiVersion: v2
     created: "2023-02-13T00:47:29.154186612Z"
     description: Log Forwarding from OpenShift to Splunk
@@ -3456,4 +3483,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-01T03:42:39.264161415Z"
+generated: "2023-03-23T22:14:23.307358972Z"
