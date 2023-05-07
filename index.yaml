@@ -1136,6 +1136,21 @@ entries:
     version: 0.1.0
   gitops-operator:
   - apiVersion: v2
+    appVersion: v2.7.1
+    created: "2023-05-07T22:48:00.350423203Z"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: e83f50502a2f2aa7d6d79058e8f548f1667945fbd3a437d05cc8542c1084d33f
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://github.com/eformat/charts/releases/download/gitops-operator-0.7.0/gitops-operator-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
     appVersion: v2.6.7
     created: "2023-04-18T22:12:49.169699433Z"
     description: "A Helm chart for customising the deployment of the Red Hat GitOps
@@ -2768,6 +2783,24 @@ entries:
     version: 1.10.2
   sonarqube:
   - apiVersion: v2
+    appVersion: 9.9.1-community
+    created: "2023-05-07T22:48:00.552658977Z"
+    description: SonarQube is an open sourced code quality scanning tool
+    digest: 07b1fb1fe6e466db9460c2b8a1927975d30d4df6eb181e3d1efc55ff2463f927
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+    keywords:
+    - coverage
+    - security
+    - code
+    - quality
+    maintainers:
+    - name: eformat
+    name: sonarqube
+    urls:
+    - https://github.com/eformat/charts/releases/download/sonarqube-0.1.2/sonarqube-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 9.5-community
     created: "2022-07-11T07:30:03.762684707Z"
     description: SonarQube is an open sourced code quality scanning tool
@@ -3038,6 +3071,23 @@ entries:
     - https://github.com/rht-labs/charts/releases/download/sonarqube-0.0.4/sonarqube-0.0.4.tgz
     version: 0.0.4
   sonatype-nexus:
+  - apiVersion: v2
+    appVersion: 3.43.0
+    created: "2023-05-07T22:48:00.769330985Z"
+    description: Sonatype Nexus is an open source repository manager
+    digest: 525eda03d0785100daa31fbe051c25bb408cf220528176341a3b367948198200
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://help.sonatype.com/docs/files/331022/34537964/3/1564671303641/NexusRepo_Icon.png
+    maintainers:
+    - name: eformat
+    - name: ckavili
+    - name: springdo
+    name: sonatype-nexus
+    sources:
+    - https://github.com/sonatype/nexus-public
+    urls:
+    - https://github.com/eformat/charts/releases/download/sonatype-nexus-1.1.11/sonatype-nexus-1.1.11.tgz
+    version: 1.1.11
   - apiVersion: v2
     appVersion: 3.41.1
     created: "2023-02-13T00:47:05.758117353Z"
@@ -3518,4 +3568,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-05T00:19:00.311123447Z"
+generated: "2023-05-07T22:48:00.770168893Z"
