@@ -2784,6 +2784,24 @@ entries:
   sonarqube:
   - apiVersion: v2
     appVersion: 9.9.1-community
+    created: "2023-05-09T07:28:01.580376968Z"
+    description: SonarQube is an open sourced code quality scanning tool
+    digest: 259496be0ac4a6122342ed3a2a5ee3d0f81559e51e8dbb7baf0938f546ebe33c
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+    keywords:
+    - coverage
+    - security
+    - code
+    - quality
+    maintainers:
+    - name: eformat
+    name: sonarqube
+    urls:
+    - https://github.com/eformat/charts/releases/download/sonarqube-0.1.3/sonarqube-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 9.9.1-community
     created: "2023-05-07T22:48:00.552658977Z"
     description: SonarQube is an open sourced code quality scanning tool
     digest: 07b1fb1fe6e466db9460c2b8a1927975d30d4df6eb181e3d1efc55ff2463f927
@@ -3568,4 +3586,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2023-05-07T22:48:00.770168893Z"
+generated: "2023-05-09T07:28:01.580833174Z"
