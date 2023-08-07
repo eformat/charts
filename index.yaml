@@ -1136,6 +1136,21 @@ entries:
     version: 0.1.0
   gitops-operator:
   - apiVersion: v2
+    appVersion: v2.7.10
+    created: "2023-08-07T00:36:29.43380403Z"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: cd9a25bb0909cef57511d165c4094d8c1906fb04ebb6305d3e4439da5ec92856
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://github.com/eformat/charts/releases/download/gitops-operator-0.7.10/gitops-operator-0.7.10.tgz
+    version: 0.7.10
+  - apiVersion: v2
     appVersion: v2.7.8
     created: "2023-08-04T02:49:59.901155434Z"
     description: "A Helm chart for customising the deployment of the Red Hat GitOps
@@ -2633,6 +2648,23 @@ entries:
     version: 0.0.1
   operators-installer:
   - apiVersion: v2
+    created: "2023-08-07T00:36:29.552048914Z"
+    description: Installs a given list of operators either using Automatic or Manual
+      InstallPlans. If Manual then version of operator can be controlled declarativly.
+    digest: aefb31843547fbfeb2312fe77cd0e0d3cc97949a5fd6f09ed0b722a8f054e799
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/operator-framework/olm-docs/ea9cd734aa7a6bf2d24f273322ed9aec3ffcb02a/content/en/images/logo-sm.svg
+    keywords:
+    - olm
+    - operators
+    maintainers:
+    - name: itewk
+    name: operators-installer
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/operators-installer-2.3.6/operators-installer-2.3.6.tgz
+    version: 2.3.6
+  - apiVersion: v2
     created: "2023-08-04T02:50:00.546551129Z"
     description: Installs a given list of operators either using Automatic or Manual
       InstallPlans. If Manual then version of operator can be controlled declarativly.
@@ -3773,4 +3805,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2023-08-04T02:50:00.547359534Z"
+generated: "2023-08-07T00:36:29.552765524Z"
