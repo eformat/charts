@@ -2030,6 +2030,22 @@ entries:
   jenkins:
   - apiVersion: v2
     appVersion: v2.222.1
+    created: "2024-01-08T21:03:08.144649323Z"
+    description: A Helm chart for deploying Jenkins on OpenShift with some additional
+      build agents and plugins
+    digest: 0f543279467bc999826618d8abbb6669b163539e14e158be835dc46f51484fe8
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.jenkins.io/images/logos/jenkins/256.png
+    maintainers:
+    - name: springdo
+    - name: ckavili
+    - name: eformat
+    name: jenkins
+    urls:
+    - https://github.com/eformat/charts/releases/download/jenkins-1.0.10/jenkins-1.0.10.tgz
+    version: 1.0.10
+  - apiVersion: v2
+    appVersion: v2.222.1
     created: "2022-06-30T07:08:17.927505223Z"
     description: A Helm chart for deploying Jenkins on OpenShift with some additional
       build agents and plugins
@@ -3939,6 +3955,20 @@ entries:
   static-site:
   - apiVersion: v2
     appVersion: 1.17.9-alpine
+    created: "2024-01-08T21:03:08.374738812Z"
+    description: A Helm chart for deploying a static-site with auto-updating
+    digest: 0b1224e68c571ae40818aec1818a1b74e1bd9962c13d987aab1d661cd0b2ee77
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://i.dlpng.com/static/png/6796939_preview.png
+    maintainers:
+    - name: jijiechen
+    name: static-site
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/static-site-0.0.10/static-site-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v2
+    appVersion: 1.17.9-alpine
     created: "2023-12-30T04:08:40.500984556Z"
     description: A Helm chart for deploying a static-site with auto-updating
     digest: 99a4f2b0634a6a700a61746a0749791479cbafae68768ad5fa19c02662729b93
@@ -4008,6 +4038,27 @@ entries:
   tekton-demo:
   - apiVersion: v2
     appVersion: latest
+    created: "2024-01-08T21:03:08.631561007Z"
+    description: This is an example of a pipeline developed in Tekton, the peaceful
+      cat. It contains the main steps of a continuous software delivery process. It
+      enforces a strict semantic version validation strategy, managing tag increments
+      for you. Develop, Features, releases, patches and hotfixes flows are supported.
+    digest: c74d7270436846bd3f64077bcde138111fedf53778ed348a59e1195d3cbf40a3
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://cd.foundation/wp-content/uploads/sites/78/2020/04/tekton-icon-color-1-300x300.png
+    keywords:
+    - tekton
+    - pipeline
+    - nodejs
+    - github
+    maintainers:
+    - name: mvmaestri
+    name: tekton-demo
+    urls:
+    - https://github.com/eformat/charts/releases/download/tekton-demo-0.0.5/tekton-demo-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: latest
     created: "2023-12-20T00:28:29.8947554Z"
     description: This is an example of a pipeline developed in Tekton, the peaceful
       cat. It contains the main steps of a continuous software delivery process. It
@@ -4069,4 +4120,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2023-12-30T04:08:40.501542127Z"
+generated: "2024-01-08T21:03:08.632095108Z"
