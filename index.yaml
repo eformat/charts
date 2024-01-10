@@ -3183,6 +3183,20 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/ploigos-0.0.4/ploigos-0.0.4.tgz
     version: 0.0.4
+  quay:
+  - apiVersion: v2
+    created: "2024-01-10T21:58:58.013062388Z"
+    description: Create quay registry
+    digest: 58bb8aecaa7e7292d8dd56896a8b866d61f506d0c80d955573fb3b67b7a0f8d5
+    icon: https://avatars1.githubusercontent.com/u/68044996?s=200&v=4
+    maintainers:
+    - name: willsparker
+    - name: ckavili
+    name: quay
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/quay-0.0.1/quay-0.0.1.tgz
+    version: 0.0.1
   sealed-secrets:
   - apiVersion: v1
     appVersion: 0.12.1
@@ -4120,4 +4134,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2024-01-08T21:03:08.632095108Z"
+generated: "2024-01-10T21:58:58.013523139Z"
