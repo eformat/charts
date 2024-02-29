@@ -1172,6 +1172,21 @@ entries:
     version: 0.1.0
   gitops-operator:
   - apiVersion: v2
+    appVersion: v2.9.5
+    created: "2024-02-29T07:00:31.293360092Z"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: 981baf24488a9cf656612e9ec0dbcd3f32a391a4ba6880f83d954b02216d4efa
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://github.com/eformat/charts/releases/download/gitops-operator-0.9.5/gitops-operator-0.9.5.tgz
+    version: 0.9.5
+  - apiVersion: v2
     appVersion: v2.9.3
     created: "2023-12-20T00:28:28.521971369Z"
     description: "A Helm chart for customising the deployment of the Red Hat GitOps
@@ -1902,6 +1917,26 @@ entries:
     - https://github.com/redhat-cop/helm-charts/releases/download/helper-sealed-secrets-1.0.0/helper-sealed-secrets-1.0.0.tgz
     version: 1.0.0
   ipa:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-29T07:00:31.390124585Z"
+    dependencies:
+    - condition: ldap_group_sync
+      name: cronjob-ldap-group-sync
+      repository: https://redhat-cop.github.io/openshift-management
+      version: 0.0.2
+    description: A Helm chart to install FreeIPA
+    digest: ad6b5925a4b0912ad4cdb35bf41246c3b311add583795de1c25ebcfe94958307
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.freeipa.org/images/freeipa/freeipa-logo-small.png
+    maintainers:
+    - name: springdo
+    - name: ckavili
+    - name: eformat
+    name: ipa
+    urls:
+    - https://github.com/eformat/charts/releases/download/ipa-1.3.7/ipa-1.3.7.tgz
+    version: 1.3.7
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-02-12T02:05:38.414816356Z"
@@ -2940,6 +2975,20 @@ entries:
   owncloud:
   - apiVersion: v2
     appVersion: latest
+    created: "2024-02-29T07:00:31.485439142Z"
+    description: A Helm chart for Owncloud
+    digest: 1a5c9b6e5430fe04861cfe26d6b9acf90e76879eb79ef60f73bca9751572bf14
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://alternative.me/media/256/owncloud-icon-ge0uksoxjjfyflu8-c.png
+    maintainers:
+    - name: eformat
+    name: owncloud
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/owncloud-0.0.14/owncloud-0.0.14.tgz
+    version: 0.0.14
+  - apiVersion: v2
+    appVersion: latest
     created: "2024-02-12T02:05:38.557791154Z"
     description: A Helm chart for Owncloud
     digest: 8ac7ae78922deb6ac048d28f98ccc398b7402cabecc83dc4222621ff8140b0df
@@ -3249,6 +3298,24 @@ entries:
     - https://github.com/rht-labs/helm-charts/releases/download/sealed-secrets-1.10.2/sealed-secrets-1.10.2.tgz
     version: 1.10.2
   sonarqube:
+  - apiVersion: v2
+    appVersion: 9.9.1-community
+    created: "2024-02-29T07:00:31.584841757Z"
+    description: SonarQube is an open sourced code quality scanning tool
+    digest: 4f6caa91535ebc9f6af17a4f7a2335b17166a48bdd5c22c05ea10057a4961343
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+    keywords:
+    - coverage
+    - security
+    - code
+    - quality
+    maintainers:
+    - name: eformat
+    name: sonarqube
+    urls:
+    - https://github.com/eformat/charts/releases/download/sonarqube-0.1.7/sonarqube-0.1.7.tgz
+    version: 0.1.7
   - apiVersion: v2
     appVersion: 9.9.1-community
     created: "2024-02-12T02:05:38.701101321Z"
@@ -4021,6 +4088,20 @@ entries:
   static-site:
   - apiVersion: v2
     appVersion: 1.17.9-alpine
+    created: "2024-02-29T07:00:31.687303122Z"
+    description: A Helm chart for deploying a static-site with auto-updating
+    digest: 7008270b9eb46c4549304c81442f8aac8ed0b8502f680f13d9e61bda1bb17b03
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://i.dlpng.com/static/png/6796939_preview.png
+    maintainers:
+    - name: jijiechen
+    name: static-site
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/static-site-0.0.14/static-site-0.0.14.tgz
+    version: 0.0.14
+  - apiVersion: v2
+    appVersion: 1.17.9-alpine
     created: "2024-02-12T02:05:38.862188045Z"
     description: A Helm chart for deploying a static-site with auto-updating
     digest: 72e08a15ca249720be05a5fbfadb3e0959da59590ba5161da94a1b9370bdc1a8
@@ -4116,6 +4197,27 @@ entries:
     - https://github.com/rht-labs/helm-charts/releases/download/static-site-0.0.3/static-site-0.0.3.tgz
     version: 0.0.3
   tekton-demo:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-02-29T07:00:31.80267805Z"
+    description: This is an example of a pipeline developed in Tekton, the peaceful
+      cat. It contains the main steps of a continuous software delivery process. It
+      enforces a strict semantic version validation strategy, managing tag increments
+      for you. Develop, Features, releases, patches and hotfixes flows are supported.
+    digest: 578e60f2428cc777f3cbd5844c467e254d05ac9cca0f1afe27133a64e6062308
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://cd.foundation/wp-content/uploads/sites/78/2020/04/tekton-icon-color-1-300x300.png
+    keywords:
+    - tekton
+    - pipeline
+    - nodejs
+    - github
+    maintainers:
+    - name: mvmaestri
+    name: tekton-demo
+    urls:
+    - https://github.com/eformat/charts/releases/download/tekton-demo-0.0.9/tekton-demo-0.0.9.tgz
+    version: 0.0.9
   - apiVersion: v2
     appVersion: latest
     created: "2024-02-12T02:05:39.027918058Z"
@@ -4221,4 +4323,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2024-02-12T02:05:39.028325218Z"
+generated: "2024-02-29T07:00:31.80322251Z"
