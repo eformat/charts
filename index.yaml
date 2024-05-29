@@ -1172,6 +1172,21 @@ entries:
     version: 0.1.0
   gitops-operator:
   - apiVersion: v2
+    appVersion: v2.10.5
+    created: "2024-05-29T00:53:00.226597525Z"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: aa9f5352979563d9b284c4ffa0e45208d7786552b849b128f40e09460bace4ad
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://github.com/eformat/charts/releases/download/gitops-operator-0.10.5/gitops-operator-0.10.5.tgz
+    version: 0.10.5
+  - apiVersion: v2
     appVersion: v2.9.5
     created: "2024-02-29T07:00:31.293360092Z"
     description: "A Helm chart for customising the deployment of the Red Hat GitOps
@@ -2975,6 +2990,20 @@ entries:
   owncloud:
   - apiVersion: v2
     appVersion: latest
+    created: "2024-05-29T00:53:00.38416733Z"
+    description: A Helm chart for Owncloud
+    digest: 25e3cf322aeba98bb7905d8f5709851039102fb3ea15ffadcdc1fb14a3970cf3
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://alternative.me/media/256/owncloud-icon-ge0uksoxjjfyflu8-c.png
+    maintainers:
+    - name: eformat
+    name: owncloud
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/owncloud-0.0.18/owncloud-0.0.18.tgz
+    version: 0.0.18
+  - apiVersion: v2
+    appVersion: latest
     created: "2024-04-10T21:21:42.509079262Z"
     description: A Helm chart for Owncloud
     digest: 149bda53dd857b9296b568678cea763c684767b56ca296e0c1cd9e7954358796
@@ -3312,6 +3341,24 @@ entries:
     - https://github.com/rht-labs/helm-charts/releases/download/sealed-secrets-1.10.2/sealed-secrets-1.10.2.tgz
     version: 1.10.2
   sonarqube:
+  - apiVersion: v2
+    appVersion: 9.9.1-community
+    created: "2024-05-29T00:53:00.522627651Z"
+    description: SonarQube is an open sourced code quality scanning tool
+    digest: 9631ebc1abda45260bfc631ea4b528b87718652e99c9cbca9d4430ff15b7be8e
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+    keywords:
+    - coverage
+    - security
+    - code
+    - quality
+    maintainers:
+    - name: eformat
+    name: sonarqube
+    urls:
+    - https://github.com/eformat/charts/releases/download/sonarqube-0.1.10/sonarqube-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v2
     appVersion: 9.9.1-community
     created: "2024-04-10T21:21:42.643786897Z"
@@ -4120,6 +4167,20 @@ entries:
   static-site:
   - apiVersion: v2
     appVersion: 1.17.9-alpine
+    created: "2024-05-29T00:53:00.690123826Z"
+    description: A Helm chart for deploying a static-site with auto-updating
+    digest: dfdd60dad08f0704283a5c5d79444ba56695feb6ad294e1e37af0179c2b766ae
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://i.dlpng.com/static/png/6796939_preview.png
+    maintainers:
+    - name: jijiechen
+    name: static-site
+    type: application
+    urls:
+    - https://github.com/eformat/charts/releases/download/static-site-0.0.17/static-site-0.0.17.tgz
+    version: 0.0.17
+  - apiVersion: v2
+    appVersion: 1.17.9-alpine
     created: "2024-04-10T21:21:42.784499438Z"
     description: A Helm chart for deploying a static-site with auto-updating
     digest: 375df869a9372df5ab1a4986d7cd84b9ad24db3c3dab066b30d0b94b3920f248
@@ -4243,6 +4304,27 @@ entries:
     - https://github.com/rht-labs/helm-charts/releases/download/static-site-0.0.3/static-site-0.0.3.tgz
     version: 0.0.3
   tekton-demo:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-05-29T00:53:00.853936179Z"
+    description: This is an example of a pipeline developed in Tekton, the peaceful
+      cat. It contains the main steps of a continuous software delivery process. It
+      enforces a strict semantic version validation strategy, managing tag increments
+      for you. Develop, Features, releases, patches and hotfixes flows are supported.
+    digest: 639aa537fe5afd8789a4633ad09719c28e4f633862b9756bb974fdee9c0f9336
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://cd.foundation/wp-content/uploads/sites/78/2020/04/tekton-icon-color-1-300x300.png
+    keywords:
+    - tekton
+    - pipeline
+    - nodejs
+    - github
+    maintainers:
+    - name: mvmaestri
+    name: tekton-demo
+    urls:
+    - https://github.com/eformat/charts/releases/download/tekton-demo-0.0.13/tekton-demo-0.0.13.tgz
+    version: 0.0.13
   - apiVersion: v2
     appVersion: latest
     created: "2024-04-10T21:21:42.891620036Z"
@@ -4390,4 +4472,4 @@ entries:
     urls:
     - https://github.com/redhat-cop/helm-charts/releases/download/tekton-demo-0.0.1/tekton-demo-0.0.1.tgz
     version: 0.0.1
-generated: "2024-04-10T21:21:42.892066384Z"
+generated: "2024-05-29T00:53:00.854558013Z"
